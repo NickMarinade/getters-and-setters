@@ -1,6 +1,6 @@
 # functions-to-methods/
 
-> 3/10/2020, 1:12:28 PM 
+> 2020-3-26 19:12:38 
 
 ## getters/ - error
 
@@ -21,15 +21,15 @@
 ```txt
 + PASS: Test 1
 ReferenceError: __ is not defined
-    at Object.<anonymous> ( [...] /getters/refactor-1.js:19:23)
-    at Module._compile (internal/modules/cjs/loader.js:777:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:788:10)
-    at Module.load (internal/modules/cjs/loader.js:643:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:556:12)
-    at Module.require (internal/modules/cjs/loader.js:683:19)
-    at require (internal/modules/cjs/helpers.js:16:16)
-    at evaluateFile ( [...] /review.js:101:5)
-    at  [...] /review.js:139:28
+    at Object.<anonymous> ( [...] \getters\refactor-1.js:19:23)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at evaluateFile ( [...] \review.js:101:5)
+    at  [...] \review.js:139:28
     at Array.map (<anonymous>)
 ```
 
@@ -79,15 +79,15 @@ console.assert(test4, 'Test 4');
 
 ```txt
 ReferenceError: __ is not defined
-    at Object.<anonymous> ( [...] /getters/refactor-2.js:14:19)
-    at Module._compile (internal/modules/cjs/loader.js:777:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:788:10)
-    at Module.load (internal/modules/cjs/loader.js:643:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:556:12)
-    at Module.require (internal/modules/cjs/loader.js:683:19)
-    at require (internal/modules/cjs/helpers.js:16:16)
-    at evaluateFile ( [...] /review.js:101:5)
-    at  [...] /review.js:139:28
+    at Object.<anonymous> ( [...] \getters\refactor-2.js:14:19)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at evaluateFile ( [...] \review.js:101:5)
+    at  [...] \review.js:139:28
     at Array.map (<anonymous>)
 ```
 
@@ -139,15 +139,15 @@ console.assert(obj2mods3second[1] === 36, 'Test 10');
 
 ```txt
 ReferenceError: __ is not defined
-    at Object.<anonymous> ( [...] /getters/refactor-3.js:13:22)
-    at Module._compile (internal/modules/cjs/loader.js:777:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:788:10)
-    at Module.load (internal/modules/cjs/loader.js:643:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:556:12)
-    at Module.require (internal/modules/cjs/loader.js:683:19)
-    at require (internal/modules/cjs/helpers.js:16:16)
-    at evaluateFile ( [...] /review.js:101:5)
-    at  [...] /review.js:139:28
+    at Object.<anonymous> ( [...] \getters\refactor-3.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at evaluateFile ( [...] \review.js:101:5)
+    at  [...] \review.js:139:28
     at Array.map (<anonymous>)
 ```
 
