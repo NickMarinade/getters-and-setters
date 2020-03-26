@@ -1,6 +1,6 @@
 # functions-to-methods/
 
-> 2020-3-26 19:12:38 
+> 2020-3-26 19:40:37 
 
 ## getters/ - error
 

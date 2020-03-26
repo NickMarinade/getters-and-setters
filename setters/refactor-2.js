@@ -16,7 +16,7 @@ const obj2 = {
     this._modulo = newModulo;
     this.mods = this.numbers.map(x => x % this._modulo);
   }
-}
+};
 
 
 obj1.setModulo(3);
@@ -42,8 +42,8 @@ console.assert(test4, 'Test 4');
 obj1.modulo = 6;
 obj2.modulo = 6;
 
-const test5 = JSON.stringify(obj1.mods) === __;
+const test5 = JSON.stringify(obj1.mods) === '[0,0,1,0]';
 console.assert(test5, 'Test 5');
 
-const test6 = JSON.stringify(obj2.mods) === __;
+const test6 = JSON.stringify(obj2.mods) === '[0,4,3,0]'; // pss, answer is in js tutor
 console.assert(test6, 'Test 6');
