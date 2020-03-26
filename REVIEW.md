@@ -2,7 +2,7 @@
 
 > 2020-3-26 19:40:37 
 
-## ./ - error
+## ./ - pass
 
 
 ### sub-directories
