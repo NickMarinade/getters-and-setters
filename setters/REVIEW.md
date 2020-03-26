@@ -1,15 +1,15 @@
 # functions-to-methods/
 
-> 2020-3-26 19:24:08 
+> 2020-3-26 19:40:37 
 
-## setters/ - error
+## setters/ - pass
 
 * [../REVIEW.md](../REVIEW.md)
 
 ### files
 
 * [refactor-1.js](#refactor-1js---pass) - pass
-* [refactor-2.js](#refactor-2js---error) - error
+* [refactor-2.js](#refactor-2js---pass) - pass
 * [refactor-3.js](#refactor-3js---pass) - pass
 
 ---
@@ -58,7 +58,7 @@ console.assert(obj2.greeting === "hi, I'm bye!", 'Test 4');
 
 ---
 
-## refactor-2.js - error
+## refactor-2.js - pass
 
 * [review source](refactor-2.js)
 
@@ -67,17 +67,8 @@ console.assert(obj2.greeting === "hi, I'm bye!", 'Test 4');
 + PASS: Test 2
 + PASS: Test 3
 + PASS: Test 4
-ReferenceError: __ is not defined
-    at Object.<anonymous> ( [...] \setters\refactor-2.js:45:45)
-    at Module._compile (internal/modules/cjs/loader.js:959:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
-    at Module.load (internal/modules/cjs/loader.js:815:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
-    at Module.require (internal/modules/cjs/loader.js:852:19)
-    at require (internal/modules/cjs/helpers.js:74:18)
-    at evaluateFile ( [...] \review.js:101:5)
-    at  [...] \review.js:139:28
-    at Array.map (<anonymous>)
++ PASS: Test 5
++ PASS: Test 6
 ```
 
 ```js
@@ -99,7 +90,7 @@ const obj2 = {
     this._modulo = newModulo;
     this.mods = this.numbers.map(x => x % this._modulo);
   }
-}
+};
 
 
 obj1.setModulo(3);
@@ -125,10 +116,10 @@ console.assert(test4, 'Test 4');
 obj1.modulo = 6;
 obj2.modulo = 6;
 
-const test5 = JSON.stringify(obj1.mods) === __;
+const test5 = JSON.stringify(obj1.mods) === '[0,0,1,0]';
 console.assert(test5, 'Test 5');
 
-const test6 = JSON.stringify(obj2.mods) === __;
+const test6 = JSON.stringify(obj2.mods) === '[0,4,3,0]'; // pss, answer is in js tutor
 console.assert(test6, 'Test 6');
 
 ```
